@@ -1,5 +1,5 @@
 :root {
-    --main-bg-color: brown;
+    --main-bg-color: darkgreen;
     --font1: sans-serif;
     --font2: cursive;
   }
@@ -12,6 +12,12 @@
 }
 .m-auto{
     margin: auto;
+}
+.font1{
+    font-family: var(--font1);
+}
+.font2{
+    font-family: var(--font2);
 }
 .btn{
     padding: 5px 12px;
