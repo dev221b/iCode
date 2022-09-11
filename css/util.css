@@ -1,0 +1,34 @@
+:root {
+    --main-bg-color: brown;
+    --font1: sans-serif;
+    --font2: cursive;
+  }
+
+.max-width-1{
+    max-width: 80vw;
+}
+.max-width-2{
+    max-width: 50vw;
+}
+.m-auto{
+    margin: auto;
+}
+.btn{
+    padding: 5px 12px;
+    border-radius: 4px;
+    background-color: rgba(5, 144, 5, 0.762);
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.btn:hover{
+    background-color: darkgreen;
+}
+.form-input{
+    padding: 4px 5px;
+    font-size: 14px;
+    border-color: darkgray;
+    border-radius: 4px;
+    margin: 0 15px;
+    font-family: var(--font2);
+}
