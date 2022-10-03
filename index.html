@@ -29,9 +29,15 @@
             </form>
             
         </div> -->
-        <div class="nav-right">
-            <button class="start-btn" id="startBtn">Get Started</button>
-        </div>
+        <!-- <div class="nav-right">
+            <button class="start-btn" type="submit" onclick="openPopup()">Get Started</button>
+            <div class="popup" id="popup">
+                <h2>Nothing's stopping ya :)</h2>
+                <br>
+                <p>You don't wanna sign in to every other website. Make yourself at home. We are as unique as you are!</p>
+                <button class="popup-btn" type="button" onclick="closePopup()">Wow! I'm excited</button>
+            </div>
+        </div> -->
 
     </nav>
     <div class="max-width-1 m-auto">
@@ -176,3 +182,15 @@
     </div>
 </body>
 </html>
+<script>
+    let popup = document.getElementById("popup");
+
+function openPopup(){
+    popup.classList.add("open-popup");
+
+}
+function closePopup(){
+    popup.classList.remove("open-popup");
+    
+}
+</script>
