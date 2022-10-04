@@ -45,9 +45,8 @@
     color: black;
     
 }
-
 .start-btn{
-    background-color: black;
+    background-color: rgb(66, 66, 66);
     color: antiquewhite;
     border-radius: 29px ;
     padding: 17px;
@@ -55,13 +54,14 @@
     transition: all 0.3s ease-in-out;
 }
 .start-btn:hover{
-    padding: 19px;
-    border-radius: 35px
+    padding: 20px;
+    border-radius: 35px;
+    background-color: black;
 }
 .content{
     height: 355px;
     display: flex;
-    background-color: rgb(240, 241, 242);
+    background-color: rgb(231, 237, 243);
     margin-top: 40px;
     padding: 13px;
     border-radius: 10px;
@@ -129,6 +129,33 @@
     color: antiquewhite;
     margin-top: 70px;
 }
-.form-control{
-
+.popup{
+    width: 550px;
+    padding: 30px;
+    background-color: black;
+    border-radius: 6px;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(0.1);
+    color: antiquewhite;
+    text-align: center;
+    visibility: hidden;
+    transition: transform 0.4s, top 0.4s;
+}
+.popup h2{
+    font-family: var(--font1);
+}
+.popup button{
+    width: 150px;
+    height: 45px;
+    margin-top: 30px;
+    border-radius: 30px;
+    font-family: var(--font1);
+    font-weight: bold;
+}
+.openPop{
+    visibility: visible;
+    top: 50%;
+    transform: translate(-50%,-50%) scale(1);
 }
